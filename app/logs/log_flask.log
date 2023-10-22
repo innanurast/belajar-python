@@ -1,0 +1,116 @@
+2023-10-22 20:09:05,434 - test_logger - 2023-10-22 20:09:05,434 - DEBUG - Initial run API flask
+2023-10-22 20:09:05,450 - werkzeug - 2023-10-22 20:09:05,450 - WARNING -  * Debugger is active!
+2023-10-22 20:09:05,465 - werkzeug - 2023-10-22 20:09:05,465 - INFO -  * Debugger PIN: 405-329-186
+2023-10-22 20:09:05,616 - werkzeug - 2023-10-22 20:09:05,616 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-10-22 20:11:55,543 - werkzeug - 2023-10-22 20:11:55,543 - INFO -  * Detected change in 'D:\\Python\\TUGAS3\\app\\views\\mahasiswa.py', reloading
+2023-10-22 20:11:58,899 - test_logger - 2023-10-22 20:11:58,899 - DEBUG - Initial run API flask
+2023-10-22 20:11:58,917 - werkzeug - 2023-10-22 20:11:58,917 - WARNING -  * Debugger is active!
+2023-10-22 20:11:58,934 - werkzeug - 2023-10-22 20:11:58,934 - INFO -  * Debugger PIN: 405-329-186
+2023-10-22 20:11:59,134 - werkzeug - 2023-10-22 20:11:59,134 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-10-22 20:14:47,892 - werkzeug - 2023-10-22 20:14:47,892 - INFO -  * Detected change in 'D:\\Python\\TUGAS3\\app\\views\\mahasiswa.py', reloading
+2023-10-22 20:14:50,113 - test_logger - 2023-10-22 20:14:50,113 - DEBUG - Initial run API flask
+2023-10-22 20:14:50,124 - werkzeug - 2023-10-22 20:14:50,124 - WARNING -  * Debugger is active!
+2023-10-22 20:14:50,135 - werkzeug - 2023-10-22 20:14:50,135 - INFO -  * Debugger PIN: 405-329-186
+2023-10-22 20:14:50,234 - werkzeug - 2023-10-22 20:14:50,234 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-10-22 20:16:55,265 - werkzeug - 2023-10-22 20:16:55,265 - INFO -  * Detected change in 'D:\\Python\\TUGAS3\\app\\views\\jurusan.py', reloading
+2023-10-22 20:16:57,270 - test_logger - 2023-10-22 20:16:57,270 - DEBUG - Initial run API flask
+2023-10-22 20:16:57,281 - werkzeug - 2023-10-22 20:16:57,281 - WARNING -  * Debugger is active!
+2023-10-22 20:16:57,294 - werkzeug - 2023-10-22 20:16:57,294 - INFO -  * Debugger PIN: 405-329-186
+2023-10-22 20:16:57,398 - werkzeug - 2023-10-22 20:16:57,398 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-10-22 20:17:01,600 - werkzeug - 2023-10-22 20:17:01,600 - INFO - 127.0.0.1 - - [22/Oct/2023 20:17:01] "GET /tugasApi HTTP/1.1" 200 -
+2023-10-22 20:17:01,652 - werkzeug - 2023-10-22 20:17:01,652 - INFO - 127.0.0.1 - - [22/Oct/2023 20:17:01] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2023-10-22 20:17:01,665 - werkzeug - 2023-10-22 20:17:01,665 - INFO - 127.0.0.1 - - [22/Oct/2023 20:17:01] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-10-22 20:17:01,666 - werkzeug - 2023-10-22 20:17:01,666 - INFO - 127.0.0.1 - - [22/Oct/2023 20:17:01] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-10-22 20:17:01,667 - werkzeug - 2023-10-22 20:17:01,667 - INFO - 127.0.0.1 - - [22/Oct/2023 20:17:01] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-10-22 20:17:02,014 - werkzeug - 2023-10-22 20:17:02,014 - INFO - 127.0.0.1 - - [22/Oct/2023 20:17:02] "GET /swagger.json HTTP/1.1" 200 -
+2023-10-22 20:17:02,016 - werkzeug - 2023-10-22 20:17:02,016 - INFO - 127.0.0.1 - - [22/Oct/2023 20:17:02] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-10-22 20:18:10,680 - werkzeug - 2023-10-22 20:18:10,680 - INFO - 127.0.0.1 - - [22/Oct/2023 20:18:10] "GET /tugasApi HTTP/1.1" 200 -
+2023-10-22 20:18:10,718 - werkzeug - 2023-10-22 20:18:10,718 - INFO - 127.0.0.1 - - [22/Oct/2023 20:18:10] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2023-10-22 20:18:10,729 - werkzeug - 2023-10-22 20:18:10,729 - INFO - 127.0.0.1 - - [22/Oct/2023 20:18:10] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-10-22 20:18:10,732 - werkzeug - 2023-10-22 20:18:10,732 - INFO - 127.0.0.1 - - [22/Oct/2023 20:18:10] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-10-22 20:18:10,734 - werkzeug - 2023-10-22 20:18:10,734 - INFO - 127.0.0.1 - - [22/Oct/2023 20:18:10] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-10-22 20:18:10,872 - werkzeug - 2023-10-22 20:18:10,872 - INFO - 127.0.0.1 - - [22/Oct/2023 20:18:10] "GET /swagger.json HTTP/1.1" 200 -
+2023-10-22 20:18:10,875 - werkzeug - 2023-10-22 20:18:10,875 - INFO - 127.0.0.1 - - [22/Oct/2023 20:18:10] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-10-22 20:18:18,547 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,547 - INFO - SELECT DATABASE()
+2023-10-22 20:18:18,548 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,548 - INFO - [raw sql] {}
+2023-10-22 20:18:18,550 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,550 - INFO - SELECT @@sql_mode
+2023-10-22 20:18:18,551 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,551 - INFO - [raw sql] {}
+2023-10-22 20:18:18,553 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,553 - INFO - SELECT @@lower_case_table_names
+2023-10-22 20:18:18,553 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,553 - INFO - [raw sql] {}
+2023-10-22 20:18:18,557 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,557 - INFO - BEGIN (implicit)
+2023-10-22 20:18:18,562 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,562 - INFO - SELECT jurusan.kode_jurusan AS jurusan_kode_jurusan, jurusan.nama_jurusan AS jurusan_nama_jurusan 
+FROM jurusan
+2023-10-22 20:18:18,564 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,564 - INFO - [generated in 0.00181s] {}
+2023-10-22 20:18:18,568 - test_logger - 2023-10-22 20:18:18,568 - INFO - Data jurusan =  [<Jurusan 1>, <Jurusan 2>]
+2023-10-22 20:18:18,569 - sqlalchemy.engine.Engine - 2023-10-22 20:18:18,569 - INFO - ROLLBACK
+2023-10-22 20:18:18,571 - werkzeug - 2023-10-22 20:18:18,571 - INFO - 127.0.0.1 - - [22/Oct/2023 20:18:18] "GET /jurusan/ HTTP/1.1" 200 -
+2023-10-22 20:19:03,714 - sqlalchemy.engine.Engine - 2023-10-22 20:19:03,714 - INFO - BEGIN (implicit)
+2023-10-22 20:19:03,718 - sqlalchemy.engine.Engine - 2023-10-22 20:19:03,718 - INFO - SELECT jurusan.kode_jurusan AS jurusan_kode_jurusan, jurusan.nama_jurusan AS jurusan_nama_jurusan 
+FROM jurusan 
+WHERE jurusan.kode_jurusan = %(pk_1)s
+2023-10-22 20:19:03,719 - sqlalchemy.engine.Engine - 2023-10-22 20:19:03,719 - INFO - [generated in 0.00160s] {'pk_1': 2}
+2023-10-22 20:19:03,724 - test_logger - 2023-10-22 20:19:03,724 - INFO - Data jurusan =  <Jurusan 2>
+2023-10-22 20:19:03,725 - sqlalchemy.engine.Engine - 2023-10-22 20:19:03,725 - INFO - ROLLBACK
+2023-10-22 20:19:03,728 - werkzeug - 2023-10-22 20:19:03,728 - INFO - 127.0.0.1 - - [22/Oct/2023 20:19:03] "GET /jurusan/2 HTTP/1.1" 200 -
+2023-10-22 20:19:26,841 - sqlalchemy.engine.Engine - 2023-10-22 20:19:26,841 - INFO - BEGIN (implicit)
+2023-10-22 20:19:26,846 - sqlalchemy.engine.Engine - 2023-10-22 20:19:26,846 - INFO - SELECT mahasiswa.nim AS mahasiswa_nim, mahasiswa.nama AS mahasiswa_nama, mahasiswa.password AS mahasiswa_password, mahasiswa.alamat AS mahasiswa_alamat, mahasiswa.tanggal_lahir AS mahasiswa_tanggal_lahir, mahasiswa.email AS mahasiswa_email, mahasiswa.no_telepon AS mahasiswa_no_telepon, mahasiswa.jurusan_id AS mahasiswa_jurusan_id 
+FROM mahasiswa
+2023-10-22 20:19:26,849 - sqlalchemy.engine.Engine - 2023-10-22 20:19:26,849 - INFO - [generated in 0.00284s] {}
+2023-10-22 20:19:26,854 - test_logger - 2023-10-22 20:19:26,854 - INFO - Data mahasiswa =  [<Mahasiswa 6>, <Mahasiswa 26>, <Mahasiswa 27>, <Mahasiswa 28>]
+2023-10-22 20:19:26,859 - sqlalchemy.engine.Engine - 2023-10-22 20:19:26,859 - INFO - SELECT jurusan.kode_jurusan AS jurusan_kode_jurusan, jurusan.nama_jurusan AS jurusan_nama_jurusan 
+FROM jurusan 
+WHERE jurusan.kode_jurusan = %(pk_1)s
+2023-10-22 20:19:26,863 - sqlalchemy.engine.Engine - 2023-10-22 20:19:26,863 - INFO - [generated in 0.00433s] {'pk_1': 1}
+2023-10-22 20:19:26,871 - sqlalchemy.engine.Engine - 2023-10-22 20:19:26,871 - INFO - SELECT jurusan.kode_jurusan AS jurusan_kode_jurusan, jurusan.nama_jurusan AS jurusan_nama_jurusan 
+FROM jurusan 
+WHERE jurusan.kode_jurusan = %(pk_1)s
+2023-10-22 20:19:26,875 - sqlalchemy.engine.Engine - 2023-10-22 20:19:26,875 - INFO - [cached since 0.01607s ago] {'pk_1': 2}
+2023-10-22 20:19:26,886 - sqlalchemy.engine.Engine - 2023-10-22 20:19:26,886 - INFO - ROLLBACK
+2023-10-22 20:19:26,890 - werkzeug - 2023-10-22 20:19:26,890 - INFO - 127.0.0.1 - - [22/Oct/2023 20:19:26] "GET /mahasiswa/ HTTP/1.1" 200 -
+2023-10-22 20:19:40,081 - sqlalchemy.engine.Engine - 2023-10-22 20:19:40,081 - INFO - BEGIN (implicit)
+2023-10-22 20:19:40,085 - sqlalchemy.engine.Engine - 2023-10-22 20:19:40,085 - INFO - SELECT mahasiswa.nim AS mahasiswa_nim, mahasiswa.nama AS mahasiswa_nama, mahasiswa.password AS mahasiswa_password, mahasiswa.alamat AS mahasiswa_alamat, mahasiswa.tanggal_lahir AS mahasiswa_tanggal_lahir, mahasiswa.email AS mahasiswa_email, mahasiswa.no_telepon AS mahasiswa_no_telepon, mahasiswa.jurusan_id AS mahasiswa_jurusan_id 
+FROM mahasiswa 
+WHERE mahasiswa.nim = %(pk_1)s
+2023-10-22 20:19:40,087 - sqlalchemy.engine.Engine - 2023-10-22 20:19:40,087 - INFO - [generated in 0.00192s] {'pk_1': 28}
+2023-10-22 20:19:40,095 - test_logger - 2023-10-22 20:19:40,095 - INFO - Data mahasiswa =  <Mahasiswa 28>
+2023-10-22 20:19:40,097 - sqlalchemy.engine.Engine - 2023-10-22 20:19:40,097 - INFO - SELECT jurusan.kode_jurusan AS jurusan_kode_jurusan, jurusan.nama_jurusan AS jurusan_nama_jurusan 
+FROM jurusan 
+WHERE jurusan.kode_jurusan = %(pk_1)s
+2023-10-22 20:19:40,098 - sqlalchemy.engine.Engine - 2023-10-22 20:19:40,098 - INFO - [cached since 13.24s ago] {'pk_1': 1}
+2023-10-22 20:19:40,103 - sqlalchemy.engine.Engine - 2023-10-22 20:19:40,103 - INFO - ROLLBACK
+2023-10-22 20:19:40,105 - werkzeug - 2023-10-22 20:19:40,105 - INFO - 127.0.0.1 - - [22/Oct/2023 20:19:40] "GET /mahasiswa/28 HTTP/1.1" 200 -
+2023-10-22 20:20:15,290 - test_logger - 2023-10-22 20:20:15,290 - INFO - Data jurusan =  <Jurusan (transient 2423001229392)>
+2023-10-22 20:20:15,291 - sqlalchemy.engine.Engine - 2023-10-22 20:20:15,291 - INFO - BEGIN (implicit)
+2023-10-22 20:20:15,294 - sqlalchemy.engine.Engine - 2023-10-22 20:20:15,294 - INFO - INSERT INTO jurusan (nama_jurusan) VALUES (%(nama_jurusan)s)
+2023-10-22 20:20:15,295 - sqlalchemy.engine.Engine - 2023-10-22 20:20:15,295 - INFO - [generated in 0.00107s] {'nama_jurusan': 'Sistem Informasi'}
+2023-10-22 20:20:15,319 - sqlalchemy.engine.Engine - 2023-10-22 20:20:15,319 - INFO - COMMIT
+2023-10-22 20:20:15,327 - werkzeug - 2023-10-22 20:20:15,327 - INFO - 127.0.0.1 - - [22/Oct/2023 20:20:15] "[35m[1mPOST /jurusan/ HTTP/1.1[0m" 201 -
+2023-10-22 20:20:27,394 - sqlalchemy.engine.Engine - 2023-10-22 20:20:27,394 - INFO - BEGIN (implicit)
+2023-10-22 20:20:27,395 - sqlalchemy.engine.Engine - 2023-10-22 20:20:27,395 - INFO - SELECT jurusan.kode_jurusan AS jurusan_kode_jurusan, jurusan.nama_jurusan AS jurusan_nama_jurusan 
+FROM jurusan
+2023-10-22 20:20:27,396 - sqlalchemy.engine.Engine - 2023-10-22 20:20:27,396 - INFO - [cached since 128.8s ago] {}
+2023-10-22 20:20:27,402 - test_logger - 2023-10-22 20:20:27,402 - INFO - Data jurusan =  [<Jurusan 1>, <Jurusan 2>, <Jurusan 5>]
+2023-10-22 20:20:27,404 - sqlalchemy.engine.Engine - 2023-10-22 20:20:27,404 - INFO - ROLLBACK
+2023-10-22 20:20:27,406 - werkzeug - 2023-10-22 20:20:27,406 - INFO - 127.0.0.1 - - [22/Oct/2023 20:20:27] "GET /jurusan/ HTTP/1.1" 200 -
+2023-10-22 20:20:37,249 - werkzeug - 2023-10-22 20:20:37,249 - INFO - 127.0.0.1 - - [22/Oct/2023 20:20:37] "GET /tugasApi HTTP/1.1" 200 -
+2023-10-22 20:20:37,287 - werkzeug - 2023-10-22 20:20:37,287 - INFO - 127.0.0.1 - - [22/Oct/2023 20:20:37] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2023-10-22 20:20:37,301 - werkzeug - 2023-10-22 20:20:37,301 - INFO - 127.0.0.1 - - [22/Oct/2023 20:20:37] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-10-22 20:20:37,303 - werkzeug - 2023-10-22 20:20:37,303 - INFO - 127.0.0.1 - - [22/Oct/2023 20:20:37] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-10-22 20:20:37,311 - werkzeug - 2023-10-22 20:20:37,311 - INFO - 127.0.0.1 - - [22/Oct/2023 20:20:37] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-10-22 20:20:37,545 - werkzeug - 2023-10-22 20:20:37,545 - INFO - 127.0.0.1 - - [22/Oct/2023 20:20:37] "GET /swagger.json HTTP/1.1" 200 -
+2023-10-22 20:20:37,552 - werkzeug - 2023-10-22 20:20:37,552 - INFO - 127.0.0.1 - - [22/Oct/2023 20:20:37] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-10-22 20:22:26,258 - werkzeug - 2023-10-22 20:22:26,258 - INFO -  * Detected change in 'D:\\Python\\TUGAS3\\app\\views\\ukm.py', reloading
+2023-10-22 20:22:28,506 - test_logger - 2023-10-22 20:22:28,506 - DEBUG - Initial run API flask
+2023-10-22 20:22:28,547 - werkzeug - 2023-10-22 20:22:28,547 - WARNING -  * Debugger is active!
+2023-10-22 20:22:28,568 - werkzeug - 2023-10-22 20:22:28,568 - INFO -  * Debugger PIN: 405-329-186
+2023-10-22 20:22:28,704 - werkzeug - 2023-10-22 20:22:28,704 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-10-22 20:23:51,280 - werkzeug - 2023-10-22 20:23:51,280 - INFO -  * Detected change in 'D:\\Python\\TUGAS3\\app\\views\\keanggotaan.py', reloading
+2023-10-22 20:23:53,252 - test_logger - 2023-10-22 20:23:53,252 - DEBUG - Initial run API flask
+2023-10-22 20:23:53,272 - werkzeug - 2023-10-22 20:23:53,272 - WARNING -  * Debugger is active!
+2023-10-22 20:23:53,289 - werkzeug - 2023-10-22 20:23:53,289 - INFO -  * Debugger PIN: 405-329-186
+2023-10-22 20:23:53,411 - werkzeug - 2023-10-22 20:23:53,411 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-10-22 20:24:02,644 - werkzeug - 2023-10-22 20:24:02,644 - INFO -  * Detected change in 'D:\\Python\\TUGAS3\\app\\views\\keanggotaan.py', reloading
+2023-10-22 20:24:04,465 - test_logger - 2023-10-22 20:24:04,465 - DEBUG - Initial run API flask
+2023-10-22 20:24:04,476 - werkzeug - 2023-10-22 20:24:04,476 - WARNING -  * Debugger is active!
+2023-10-22 20:24:04,487 - werkzeug - 2023-10-22 20:24:04,487 - INFO -  * Debugger PIN: 405-329-186
+2023-10-22 20:24:04,594 - werkzeug - 2023-10-22 20:24:04,594 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
