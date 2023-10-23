@@ -20,7 +20,7 @@ jurusan_model = jurusan_ns.model(
 )
 
 @jurusan_ns.route('/') #mendefinisikan route /users/
-class UserGetPost(Resource):
+class MajorGetPost(Resource):
     #resource berisi :
     # self : mengakses properti atau metode lain dari kelas resource
     # args : berisi nilai parameter URL misal /users/<int:user_id>, jadi bisa mengambil user_id
@@ -51,6 +51,15 @@ class UserGetPost(Resource):
     def post(self):
         """Get New Data Jurusan"""
 
+        data = request.get_json()
+        namaJurusan = data.get('nama_jurusan')
+
+        # Periksa apakah alamat email sudah ada dalam basis data
+        existing_nama = Jurusan.query.filter_by(nama_jurusan=namaJurusan).first()
+
+        if existing_nama:
+            jurusan_ns.abort(HTTPStatus.BAD_REQUEST, message="The major name is already exist.")
+
         try:
             new_data = request.get_json()
             print(f"data : {new_data}") #ketika sudah dipastikan aman tidak butuh lagi function seperti print input kalau di kava console.log
@@ -59,7 +68,7 @@ class UserGetPost(Resource):
                 nama_jurusan = new_data.get('nama_jurusan')
             )
 
-            flasklogger.info(f"Data jurusan =  {new_input_data}")
+            flasklogger.info(f"Data post jurusan =  {new_input_data}")
             db.session.add(new_input_data)
             db.session.commit()
 
@@ -70,7 +79,7 @@ class UserGetPost(Resource):
             return [], HTTPStatus.BAD_REQUEST
 
 @jurusan_ns.route('/<int:jurusan_id>')
-class UserGetPutDelete(Resource):
+class MajorGetPutDelete(Resource):
     @jurusan_ns.doc(
             description = "Get Jurusan data by id", 
             params = {"jurusan_id": "Id user"}
@@ -104,7 +113,7 @@ class UserGetPutDelete(Resource):
 
             data_update.nama_jurusan = data['nama_jurusan']
 
-            flasklogger.info(f"Data jurusan =  {data_update}")
+            flasklogger.info(f"Data update jurusan =  {data_update}")
             db.session.commit()
 
             return [], HTTPStatus.OK

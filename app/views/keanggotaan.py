@@ -3,6 +3,8 @@ from flask import request
 from flask_restx import Namespace, Resource, fields
 from ..utils import db
 from ..models.keanggotaan import Keanggotaan
+from ..models.mahasiswa import Mahasiswa
+from ..models.ukm import UKM
 
 from datetime import datetime
 from ..logs.log import flasklogger
@@ -79,6 +81,20 @@ class AnggotaGetPost(Resource):
     def post(self):
         """Get New Data Keanggotaan UKM"""
 
+        data = request.get_json()
+        mhs_id = data.get('nim')
+        ukms_id = data.get('id_ukm')
+
+        # Periksa apakah data mhs dan ukm ada dalam basis data
+        data_mhs = Mahasiswa.query.filter_by(nim=mhs_id).first()
+        data_ukm = UKM.query.filter_by(id_ukm=ukms_id).first()
+
+        if (not data_mhs):
+            anggota_ns.abort(HTTPStatus.BAD_REQUEST, message="data mahasiswa is not found.")
+
+        if (not data_ukm):
+            anggota_ns.abort(HTTPStatus.BAD_REQUEST, message="data UKM is not found.")
+
         try:
             #get_json() adalah metode request yang menguraikan data dalam badan permintaan sebagai JSON. 
             #Jika data dalam badan permintaan adalah JSON yang valid, metode ini akan mengembalikan objek Python yang sesuai. 
@@ -101,7 +117,7 @@ class AnggotaGetPost(Resource):
 
         except Exception as e:
             print("Error Post : ", e)
-            print(str(e))
+            flasklogger.error(str(e))
             return [], HTTPStatus.BAD_REQUEST
 
 @anggota_ns.route('/<int:id_anggota>')

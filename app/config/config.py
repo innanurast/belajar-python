@@ -1,5 +1,6 @@
 import os
 from decouple import config
+from datetime import timedelta
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -12,6 +13,9 @@ class Config:
 class Devconfig(Config):
     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:''@localhost/tugasapi'
     SQLALCHEMY_RECORD_QUERIES = config('SQLACHEMY_RECORD_QUERIES', cast=bool)
+    JWT_ACCESS_TOKEN_EXPIRES = timedelta(minutes=1)
+    JWT_REFRESH_TOKEN_EXPIRES = timedelta(seconds=0)
+    JWT_SECRET_KEY = config('JWT_SECRET_KEY')
 
 class Qasconfig(Config):
     pass

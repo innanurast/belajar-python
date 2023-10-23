@@ -3,6 +3,7 @@ from flask import request, jsonify
 from flask_restx import Namespace, Resource, fields
 from ..utils import db
 from ..models.mahasiswa import Mahasiswa
+from ..models.jurusan import Jurusan
 from ..logs.log import flasklogger
 
 #namespace digunakan untuk mengelompokkan route yang berkaitan dengan entitas tertentu
@@ -80,9 +81,31 @@ class MhsGetPost(Resource):
     def post(self):
         """Get New Data Mahasiswa"""
 
+        data = request.get_json()
+        email = data.get('email')
+        no_tlp = data.get('no_telepon')
+        data_jurusan = data.get('jurusan_id')
+
+        # Periksa apakah alamat email, no tlp sudah ada dalam basis data
+        existing_mhs = Mahasiswa.query.filter_by(email=email).first()
+        existing_tlp = Mahasiswa.query.filter_by(no_telepon=no_tlp).first()
+
+        # Periksa apakah data jurusan ada dalam basis data
+        major = Jurusan.query.filter_by(jurusan_id=data_jurusan).first()
+
+
+        if existing_mhs:
+            mahasiswa_ns.abort(HTTPStatus.BAD_REQUEST, message="Email is already taken.")
+        
+         if existing_tlp:
+            mahasiswa_ns.abort(HTTPStatus.BAD_REQUEST, message="No telepon is already taken.")
+
+        if (not major):
+            mahasiswa_ns.abort(HTTPStatus.BAD_REQUEST, message="data jurusan is not found.")
+
         try:
             new_mhs = request.get_json()
-            print(f"data : {new_mhs}") #ketika sudah dipatikan aman tidak butuh lagi function seperti print input kalau di kava console.log
+            print(f"data : {new_mhs}") #ketika sudah dipastikan aman tidak butuh lagi function seperti print input kalau di kava console.log
             
             new_input_mhs = Mahasiswa(
                 nama = new_mhs.get('nama'),

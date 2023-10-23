@@ -8,6 +8,7 @@ from .views.jurusan import jurusan_ns
 from .views.mahasiswa import mahasiswa_ns
 from .views.ukm import ukm_ns
 from .views.keanggotaan import anggota_ns
+from .views.auth import auth_ns
 
 from .utils import db
 # from flask_sqlalchemy import SQLAlchemy
@@ -27,13 +28,23 @@ def create_app(config=config_dict['dev']):
         app,
         doc='/tugasApi',
         title="REST API FLASK",
-        description="Tugas Membuat REST API dengan Flask"
+        description="Tugas Membuat REST API dengan Flask",
+        authorizations= {
+            "Bearer Auth" : {
+                "type": 'apiKey',
+                "in": 'header',
+                "name": 'Authorization',
+                "description": 'jwt api'
+            }
+        },
+        security= "Bearer Auth"
     )
 
     api.add_namespace(jurusan_ns)
     api.add_namespace(mahasiswa_ns)
     api.add_namespace(ukm_ns)
     api.add_namespace(anggota_ns)
+    api.add_namespace(auth_ns)
 
     migrate = Migrate(app, db)
 

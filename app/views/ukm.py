@@ -35,7 +35,7 @@ class UkmGetPost(Resource):
             return data_ukm, HTTPStatus.OK #menjalankan perintah get prodi jika berhasil
      
         except Exception as e:
-            print(str(e))
+            flasklogger.error(str(e))
             return [], HTTPStatus.INTERNAL_SERVER_ERROR
         
         
@@ -46,6 +46,15 @@ class UkmGetPost(Resource):
     @ukm_ns.marshal_with(ukm_model) # untuk mengkonversi satu objek ke format JSON
     def post(self):
         """Get New Data UKM"""
+
+        data = request.get_json()
+        namaUkm = data.get('nama_ukm')
+
+        # Periksa apakah alamat email sudah ada dalam basis data
+        existing_nama = UKM.query.filter_by(nama_ukm=namaUkm).first()
+
+        if existing_nama:
+            ukm_ns.abort(HTTPStatus.BAD_REQUEST, message="The UKM name already exists.")
 
         try:
             new_data = request.get_json()
